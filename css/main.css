@@ -50,17 +50,38 @@ h3 {
 /* Main Page Content */
 section {    
     background-image: url('../img/ricepaper_v3.png');
+    opacity: 0.9;
 }
 
 #info p {
 	margin: 0;
 }
 
-header, section, footer {
+header, footer {
 	padding: 1em 1em 1em 1em;
 	opacity: 0.9;
 }
 
+dt {
+	font-weight: 400;
+}
+
+dd { 
+	font-size: 80%;
+	font-style: italic;
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
+
+#info, #about {
+	padding: 1em 1em 1em 1em;
+}
+
+/* Menu Section */
+#menu{
+	padding: 1em 1em 1em 1em;
+	background-color: rgba(207, 205, 140, 0.5);
+}
 
 /* Page Header */
 header {
@@ -75,23 +96,6 @@ h4 {
 	font-size: 120%;
 	color: #EEEEEE;
 	margin: 0;
-}
-
-/* Menu Section */
-div {
-	padding: 1em 1em 1em 1em;
-	background-color: rgba(207, 205, 140, 0.5);
-}
-
-dt {
-	font-weight: 400;
-}
-
-dd { 
-	font-size: 80%;
-	font-style: italic;
-	margin-left: 1em;
-	margin-bottom: 1em;
 }
 
 /* Page Footer */
